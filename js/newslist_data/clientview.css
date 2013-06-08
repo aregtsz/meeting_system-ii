@@ -1,0 +1,257 @@
+table#messagetable {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:13px;
+    float:none;
+    clear:both;
+}
+table#questionnairetable {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:13px;
+    float:none;
+    clear:both;
+}
+form {
+    display:inline;
+}
+ul {
+    padding:0px;
+    margin:0px;
+    text-indent:0px;
+    list-style:none;
+}
+h1{
+    text-align:center;
+    border-bottom:2px solid #CCC;
+    font-size:30px;
+    font-weight:normal;
+}
+th {
+    font-size:15px;
+    font-weight:bold;
+    background-color:#EEE;
+    height:30px;
+}
+td {
+    border-bottom:1px solid #CCC;
+    padding:5px;
+    text-align:left;
+    border-left:1px solid #EEE;
+}
+ul#navigator {
+    border:1px solid #333;
+    background-color:#EEE;
+    float:right;
+    font-size:12px;
+    padding:5px;
+    margin:8px;
+}
+span#login {
+    color:navy;
+    font-weight:bold;
+    text-decoration:none;
+}
+a {
+    text-decoration:none;
+}
+body {
+    cursor:default;
+}
+span.messagelink {
+    color:black;
+    font-size:15px;
+    text-decoration:underline;
+}
+li.newline {
+    border-bottom:1px solid #EEE;
+    overflow:visible;
+}
+ul#newsarea {
+    font-size:15px;
+    border-bottom:2px solid #CCC;
+    border-right:2px solid #CCC;
+    margin:5px;
+    display:block;
+}
+ul#download {
+    text-indent:10px;
+    list-style:square;
+    padding:10px;
+    list-style-position:inside;
+}
+h3 {
+    border-right:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    background-color:#EEE;
+    display:block;
+    font-weight:bold;
+    font-size:15px;
+    padding:5px;
+    margin:5px;
+}
+h2 {
+    margin:0px;
+    text-indent:0px;
+    font-weight:normal;
+}
+span.back {
+    margin:5px;
+    text-decoration:underline;
+    color:black;
+    font-weight:bold;
+    font-size:13px;
+}
+ul#detailinfo {
+    float:right;
+    width:200px;
+    border:1px solid #666;
+    padding:1px;
+    margin:5px;
+    background-color:white;
+}
+li#bulletinbody {
+    overflow:visible;
+}
+span.detailinfoli {
+    text-align:right;
+    display:block;
+    padding:3px;
+    font-size:13px;
+}
+h4 {
+    border-right:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    background-color:#EEE;
+    display:block;
+    font-weight:normal;
+    font-size:15px;
+    padding:5px;
+    margin:5px;
+}
+h5 {
+    font-size:20px;
+    font-weight:normal;
+    padding:0px;
+    text-align:center;
+    margin:2px;
+}
+li.imp_post {
+    color:maroon;
+    text-align:center;
+    border:1px solid #B22;
+    background-color:#FFE4E1;
+    font-size:13px;
+    padding:3px;
+	margin:1px;
+}
+div#inputnewsarea {
+    display:none;
+}
+a{
+    color:blue;
+    text-decoration:underline;
+}
+span.must {
+	color:red;
+}
+li.viewonly {
+	background-color: #9F9;
+	border: 1px solid #0C0;    
+	font-size:13px;
+	color:#060;
+	padding:3px;
+	text-align:center;
+	margin:1px;
+}
+li.titlemsg {
+	border:1px #FC6 solid;
+	background:#FFC;
+	font-size:13px;
+	color:maroon;
+	padding:3px;
+	text-align:center;
+	margin:1px;
+}
+li.errorlist {
+    text-align:left;
+    border:1px solid #F00;
+    background-color:#FFEDED;
+    font-size:13px;
+    padding:3px;
+    margin:1px;
+    color: #F00;
+    display: none;
+}
+li.detailtip {
+    text-align: center;
+    border: 1px solid #999;
+    background-color: #FFF;
+    color:#333;
+    font-size:13px;
+    padding:3px;
+    margin:1px;
+}
+span.disabletip {
+    color:maroon;
+}
+caption {
+	font-size:15px;
+	text-align:left;
+	padding:5px;
+	padding-left:10px;
+}
+span.linktomain {
+	font-size:13px;
+	font-weight:bold;
+	color:navy;
+	text-decoration:underline;
+	cursor:pointer;
+}
+span.outofdate {
+	color:red;
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: italic;
+}
+em {
+	font-family: Verdana, Geneva, sans-serif;
+}
+div#detailq ol li {
+	margin:30px;
+}
+label.fcontrol {
+	display:block;
+}
+label.fcontrol:first-child {
+	float:left;
+	clear:none;
+}
+input.fbutton {
+	border:2px solid #333;
+	color:#333;
+	background-color:#FFF;
+	background-image:none;
+}
+input.fadd {
+	border:2px solid #333;
+	color:#333;
+	background-color:#FFF;
+	background-image:none;
+}
+div#detailq ol li ul.attachlist {
+	padding:0px;
+	margin:0px;
+	margin-left:10px;
+	clear:both;
+}
+div#detailq ol li ul.attachlist li:first-child {
+	background-color:#CCC;
+	font-weight:bold;
+}
+div#detailq ol li ul.attachlist li {
+	text-decoration:underline;
+	margin:0px;
+	font-size:12px;
+	padding:3px;
+}
